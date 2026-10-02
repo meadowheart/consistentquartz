@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "consistentquartz:block/polished_amethyst",
+    "side": "consistentquartz:block/polished_amethyst",
+    "top": "consistentquartz:block/polished_amethyst"
+  }
+}

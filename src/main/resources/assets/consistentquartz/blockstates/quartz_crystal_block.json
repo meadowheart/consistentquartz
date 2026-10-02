@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "consistentquartz:block/quartz_crystal_block"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "consistentquartz:block/smooth_amethyst",
+    "side": "consistentquartz:block/smooth_amethyst",
+    "top": "consistentquartz:block/smooth_amethyst"
+  }
+}

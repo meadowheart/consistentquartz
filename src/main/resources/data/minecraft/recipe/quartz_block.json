@@ -1,0 +1,15 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "consistentquartz:quartz_crystal_block"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:quartz_block"
+  }
+}

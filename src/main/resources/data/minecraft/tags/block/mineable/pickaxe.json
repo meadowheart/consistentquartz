@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+	"consistentquartz:amethyst_bricks",
+	"consistentquartz:amethyst_pillar",
+	"consistentquartz:amethyst_slab",
+	"consistentquartz:amethyst_stairs",
+	"consistentquartz:budding_quartz",
+	"consistentquartz:chiseled_amethyst_block",
+	"consistentquartz:large_quartz_bud",
+	"consistentquartz:medium_quartz_bud",
+	"consistentquartz:polished_amethyst",
+	"consistentquartz:polished_amethyst_slab",
+	"consistentquartz:polished_amethyst_stairs",
+	"consistentquartz:quartz_cluster",
+	"consistentquartz:quartz_crystal_block",
+	"consistentquartz:quartz_crystal_slab",
+	"consistentquartz:quartz_crystal_stairs",
+	"consistentquartz:small_quartz_bud",
+	"consistentquartz:smooth_amethyst",
+	"consistentquartz:smooth_amethyst_slab",
+	"consistentquartz:smooth_amethyst_stairs"
+  ]
+}

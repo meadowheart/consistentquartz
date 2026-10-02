@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+	"consistentquartz:amethyst_slab",
+    "consistentquartz:polished_amethyst_slab",
+    "consistentquartz:quartz_crystal_slab",
+	"consistentquartz:smooth_amethyst_slab"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "consistentquartz:polished_amethyst",
+  "result": {
+    "id": "consistentquartz:chiseled_amethyst_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "consistentquartz:quartz_crystal_block",
+  "result": {
+    "id": "consistentquartz:quartz_crystal_stairs"
+  }
+}

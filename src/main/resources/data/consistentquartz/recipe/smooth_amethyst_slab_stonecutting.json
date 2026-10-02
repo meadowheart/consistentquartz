@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "consistentquartz:smooth_amethyst",
+  "result": {
+    "count": 2,
+    "id": "consistentquartz:smooth_amethyst_slab"
+  }
+}

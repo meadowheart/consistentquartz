@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "meadowheart.consistentquartz.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BasaltColumnsAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

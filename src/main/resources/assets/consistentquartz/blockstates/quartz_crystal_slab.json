@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "consistentquartz:block/quartz_crystal_slab"
+    },
+    "type=double": {
+      "model": "consistentquartz:block/quartz_crystal_block"
+    },
+    "type=top": {
+      "model": "consistentquartz:block/quartz_crystal_slab_top"
+    }
+  }
+}

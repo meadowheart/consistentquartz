@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "consistentquartz",
+	"version": "1.0.0",
+	"name": "Consistent Quartz and Amethyst",
+	"description": "Amethyst block set and Nether quartz geodes!",
+	"authors": [
+		"Meadowheart"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/consistent-quartz"
+	},
+	"license": "MIT",
+	"icon": "assets/consistentquartz/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"meadowheart.consistentquartz.ConsistentQuartz"
+		],
+		"client": [
+			"meadowheart.consistentquartz.client.ConsistentQuartzClient"
+		],
+		"fabric-datagen": [
+			"meadowheart.consistentquartz.client.datagen.ConsistentQuartzDataGenerator"
+		]
+	},
+	"mixins": [
+		"consistentquartz.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

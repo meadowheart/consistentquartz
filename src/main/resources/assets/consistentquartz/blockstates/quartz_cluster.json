@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "consistentquartz:block/quartz_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "consistentquartz:block/quartz_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "consistentquartz:block/quartz_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "consistentquartz:block/quartz_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "consistentquartz:block/quartz_cluster"
+    },
+    "facing=west": {
+      "model": "consistentquartz:block/quartz_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

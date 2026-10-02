@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "consistentquartz:block/chiseled_amethyst_block_top",
+    "side": "consistentquartz:block/chiseled_amethyst_block"
+  }
+}

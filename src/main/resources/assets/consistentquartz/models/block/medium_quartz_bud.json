@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "consistentquartz:block/medium_quartz_bud"
+  }
+}

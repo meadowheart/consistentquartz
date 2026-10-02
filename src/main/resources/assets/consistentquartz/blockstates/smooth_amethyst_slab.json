@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "consistentquartz:block/smooth_amethyst_slab"
+    },
+    "type=double": {
+      "model": "consistentquartz:block/smooth_amethyst"
+    },
+    "type=top": {
+      "model": "consistentquartz:block/smooth_amethyst_slab_top"
+    }
+  }
+}

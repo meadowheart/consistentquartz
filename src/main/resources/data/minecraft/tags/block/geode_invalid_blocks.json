@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:nether_bricks",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:gilded_blackstone",
+    "minecraft:gold_block",
+    "#minecraft:slabs",
+    "#minecraft:stairs"
+  ]
+}

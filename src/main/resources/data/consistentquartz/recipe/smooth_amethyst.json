@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 0.1,
+  "ingredient": "consistentquartz:polished_amethyst",
+  "result": {
+    "id": "consistentquartz:smooth_amethyst"
+  }
+}
