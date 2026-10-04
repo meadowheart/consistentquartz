@@ -1,8 +1,8 @@
-### Consistent Quartz
+# Consistent Quartz
 
 Amethyst is a violet variety of quartz. So why is it that in Minecraft, they seem to be completely different things? I think that if Minecraft came out today, then amethyst and quartz would be much more consistent; they would generate in the same way, and they would have similar uses. This bothered me enough that I decided to learn Fabric API to change it!
 
-# Features
+## Features
 Consistent Quartz and Amethyst (internally named "consistentquartz") gives amethyst a full decorative block set and replaces Nether quartz ore with quartz geodes. If you've ever thought that Minecraft needs more purple building blocks, this mod gives you a lot of options!
 
 Quartz geodes generate in all Nether biomes, with a 20% chance to generate a geode for every chunk. Quartz geodes are very common, but if you're having trouble finding one, look in the Nether Wastes - they stand out against the simple terrain.
@@ -22,7 +22,7 @@ In addition to the new blocks, I've also added a crafting recipe to convert crys
 ### Known Issues
 In Basalt Deltas, geodes may generate with a delta (lava pool) inside of or on top of them. I was able to fix a similar problem with basalt pillars by just adding all the blocks inside a quartz geode to their "CANNOT_PLACE_ON" value, but because deltas don't already have a check for disallowed blocks like basalt pillars do, and they always come last in world generation, I don't have an easy solution for them. It's not a huge issue, so I've left it alone for now.
 
-# Future Plans
+## Future Plans
 - More version support (26.3 is first on the list!)
 - More unique textures for the amethyst block set
 - Config option to add back Nether quartz ore to world generation
