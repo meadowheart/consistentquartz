@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:chiseled_amethyst_block"
+        "recipes": "consistentquartz:chiseled_amethyst_block"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

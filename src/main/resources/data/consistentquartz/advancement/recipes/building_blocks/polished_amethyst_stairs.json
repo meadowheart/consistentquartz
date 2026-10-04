@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:polished_amethyst_stairs"
+        "recipes": "consistentquartz:polished_amethyst_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

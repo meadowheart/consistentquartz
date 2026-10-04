@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:quartz"
+        "recipes": "consistentquartz:quartz"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

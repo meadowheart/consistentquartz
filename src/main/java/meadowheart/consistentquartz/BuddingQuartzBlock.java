@@ -1,6 +1,5 @@
 package meadowheart.consistentquartz;
 
-import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -15,13 +14,8 @@ import net.minecraft.world.level.material.Fluids;
 import static net.minecraft.world.level.block.BuddingAmethystBlock.canClusterGrowAtState;
 
 public class BuddingQuartzBlock extends AmethystBlock {
-    public static final MapCodec<BuddingQuartzBlock> CODEC = simpleCodec(BuddingQuartzBlock::new);
     public static final int GROWTH_CHANCE = 5;
     private static final Direction[] DIRECTIONS = Direction.values();
-
-    public MapCodec<BuddingQuartzBlock> codec() {
-        return CODEC;
-    }
 
     public BuddingQuartzBlock(final BlockBehaviour.Properties properties) {
         super(properties);

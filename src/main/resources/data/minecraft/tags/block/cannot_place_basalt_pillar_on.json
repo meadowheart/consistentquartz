@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:calcite",
+    "consistentquartz:budding_quartz",
+    "consistentquartz:quartz_crystal_block",
+    "consistentquartz:quartz_cluster",
+    "consistentquartz:large_quartz_bud",
+    "consistentquartz:medium_quartz_bud",
+    "consistentquartz:small_quartz_bud"
+  ]
+}

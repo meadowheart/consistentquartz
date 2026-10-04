@@ -14,7 +14,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:polished_amethyst"
+        "recipes": "consistentquartz:polished_amethyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

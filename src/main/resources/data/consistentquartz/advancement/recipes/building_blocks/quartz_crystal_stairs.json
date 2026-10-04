@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:quartz_crystal_stairs"
+        "recipes": "consistentquartz:quartz_crystal_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

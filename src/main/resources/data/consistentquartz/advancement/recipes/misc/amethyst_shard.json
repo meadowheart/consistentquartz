@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:amethyst_shard"
+        "recipes": "consistentquartz:amethyst_shard"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

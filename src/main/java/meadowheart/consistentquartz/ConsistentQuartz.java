@@ -1,17 +1,13 @@
 package meadowheart.consistentquartz;
 
-import com.google.common.collect.ImmutableList;
-import meadowheart.consistentquartz.mixin.BasaltColumnsAccessor;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.biome.v1.ModificationPhase;
 
-import net.minecraft.data.worldgen.placement.NetherPlacements;
 import net.minecraft.data.worldgen.placement.OrePlacements;
 import net.minecraft.resources.Identifier;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.GenerationStep;
 
 import org.slf4j.Logger;
@@ -31,8 +27,6 @@ public class ConsistentQuartz implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModBlocks.initialize();
-
-		BasaltColumnsAccessor.setCANNOT_PLACE_ON(ImmutableList.of(Blocks.LAVA, Blocks.BEDROCK, Blocks.MAGMA_BLOCK, Blocks.SOUL_SAND, Blocks.NETHER_BRICKS, Blocks.NETHER_BRICK_FENCE, Blocks.NETHER_BRICK_STAIRS, Blocks.NETHER_WART, Blocks.CHEST, Blocks.SPAWNER, Blocks.CALCITE, ModBlocks.QUARTZ_CRYSTAL_BLOCK, ModBlocks.BUDDING_QUARTZ, ModBlocks.QUARTZ_CLUSTER, ModBlocks.LARGE_QUARTZ_BUD, ModBlocks.MEDIUM_QUARTZ_BUD, ModBlocks.SMALL_QUARTZ_BUD));
 
 		BiomeModifications.create(Identifier.fromNamespaceAndPath("consistentquartz", "main")).add(ModificationPhase.REMOVALS,
 				BiomeSelectors.foundInTheNether(),

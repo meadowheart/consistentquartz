@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:amethyst_pillar"
+        "recipes": "consistentquartz:amethyst_pillar"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

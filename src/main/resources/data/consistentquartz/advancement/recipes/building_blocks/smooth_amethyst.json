@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:smooth_amethyst"
+        "recipes": "consistentquartz:smooth_amethyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

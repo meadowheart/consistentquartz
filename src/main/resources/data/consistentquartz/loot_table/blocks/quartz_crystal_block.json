@@ -13,7 +13,7 @@
           "name": "consistentquartz:quartz_crystal_block"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "consistentquartz:quartz_crystal_block"

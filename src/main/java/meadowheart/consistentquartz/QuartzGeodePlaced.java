@@ -5,14 +5,14 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.placement.*;
 
 import java.util.List;
 
 public class QuartzGeodePlaced {
     public static void configure(BootstrapContext<PlacedFeature> context) {
-        HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        HolderGetter<Feature> features = context.lookup(Registries.FEATURE);
         List<PlacementModifier> quartzGeodeModifiers = List.of(
                 RarityFilter.onAverageOnceEvery(5),
                 InSquarePlacement.spread(),
@@ -22,7 +22,7 @@ public class QuartzGeodePlaced {
         context.register(
                 QUARTZ_GEODE_PLACED,
                 new PlacedFeature(
-                        configuredFeatures.getOrThrow(QuartzGeodeConfigured.QUARTZ_GEODE),
+                        features.getOrThrow(QuartzGeodeFeature.QUARTZ_GEODE),
                         quartzGeodeModifiers
                 )
         );

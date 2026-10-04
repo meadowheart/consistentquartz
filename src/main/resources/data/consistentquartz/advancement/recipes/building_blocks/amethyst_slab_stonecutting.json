@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:amethyst_slab_stonecutting"
+        "recipes": "consistentquartz:amethyst_slab_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

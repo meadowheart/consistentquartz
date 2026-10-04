@@ -1,7 +1,5 @@
 package meadowheart.consistentquartz;
 
-import java.util.function.Function;
-
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -15,6 +13,8 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
+
+import java.util.function.Function;
 
 import static net.minecraft.world.level.block.Blocks.AMETHYST_BLOCK;
 
@@ -47,12 +47,12 @@ public class ModBlocks {
     public static final Block BUDDING_QUARTZ = register(
             ModBlockItemIds.BUDDING_QUARTZ,
             BuddingQuartzBlock::new,
-            BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).randomTicks().strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops().pushReaction(PushReaction.DESTROY)
+            BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).randomTicks().strength(1.5F).sound(SoundType.AMETHYST).requiresCorrectToolForDrops().pushReaction(PushReaction.POPPED)
     );
     public static final Block QUARTZ_CLUSTER = register(
             ModBlockItemIds.QUARTZ_CLUSTER,
             (p) -> new AmethystClusterBlock(4.0F, 8.0F, p),
-            BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).forceSolidOn().noOcclusion().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((_) -> 5).pushReaction(PushReaction.DESTROY)
+            BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).forceSolidOn().noOcclusion().sound(SoundType.AMETHYST_CLUSTER).strength(1.5F).lightLevel((_) -> 5).pushReaction(PushReaction.POPPED)
     );
     public static final Block LARGE_QUARTZ_BUD = register(
             ModBlockItemIds.LARGE_QUARTZ_BUD,

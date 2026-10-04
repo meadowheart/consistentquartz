@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "consistentquartz:smooth_amethyst_stairs_stonecutting"
+        "recipes": "consistentquartz:smooth_amethyst_stairs_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
