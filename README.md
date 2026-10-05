@@ -32,6 +32,6 @@ In Basalt Deltas, geodes may generate with a delta (lava pool) inside of or on t
 I have lots of other ideas for mods that I want to work on before anything else. I'd like to make a version for Neoforge at some point, but I can't make any promises of when. Sinytra Connector should work in the meantime.
 
 ### Mod Compatibility?
-Consistent Quartz and Amethyst should be compatible pretty much any mod, as long as it doesn't have conflicting recipes. If you find any mod incompatibilities, please open an issue and I'll look at it when I have time.
+Consistent Quartz and Amethyst should be compatible with pretty much any mod, as long as it doesn't have conflicting recipes. If you find any mod incompatibilities, please open an issue and I'll look at it when I have time.
 
 You're welcome to include Consistent Quartz and Amethyst in modpacks!
