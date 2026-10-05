@@ -20,10 +20,10 @@ The rest of the blocks added by the mod are simply purple amethyst variants of t
 In addition to the new blocks, I've also added a crafting recipe to convert crystal blocks back into amethyst shards or Nether quartz!
 
 ### Known Issues
-In Basalt Deltas, geodes may generate with a delta (lava pool) inside of or on top of them. I was able to fix a similar problem with basalt pillars by just adding all the blocks inside a quartz geode to their "CANNOT_PLACE_ON" value, but because deltas don't already have a check for disallowed blocks like basalt pillars do, and they always come last in world generation, I don't have an easy solution for them. It's not a huge issue, so I've left it alone for now.
+In Basalt Deltas, geodes may generate with a delta (lava pool) inside of or on top of them. I was able to fix a similar problem with basalt pillars by just adding all the blocks inside a quartz geode to their "CANNOT_PLACE_ON" list, but because deltas don't already have a check for disallowed blocks like basalt pillars do, and they always come last in world generation, I don't have an easy solution for them. It's not a huge issue, so I've left it alone for now.
 
 ## Future Plans
-- More version support (26.3 is first on the list!)
+- More version support
 - More unique textures for the amethyst block set
 - Config option to add back Nether quartz ore to world generation
 - A dedicated Creative menu (currently, the blocks can be found in Building Blocks and Natural Blocks)
